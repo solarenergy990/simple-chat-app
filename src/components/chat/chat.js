@@ -72,13 +72,13 @@ class Chat extends PureComponent {
     if (!isLoggedIn) {
       return (
         <main className="form-signin">
-          <h4 className="form-floating mb-3">Пожалуйста представьтесь</h4>
+          <h4 className="form-floating mb-3">Introduce yourself, please</h4>
           <div className="form-floating mb-3">
             <input
               className="form-control"
               value={currentUser}
               onChange={this.changeName}
-              placeholder="Введите ваш никнейм"
+              placeholder="Enter Your Nickname"
               id="floatingInput"
             />
             <label for="floatingInput">Nickname</label>
